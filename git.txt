@@ -19,3 +19,5 @@ in our way
 there are tracked and untracked files 
 
 for editing recent commit message use git commit --amend
+
+? how to edit files in commit
