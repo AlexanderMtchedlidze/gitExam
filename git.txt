@@ -17,3 +17,5 @@ pure code nevertheless cloning repository in addition with files we have history
 in our way
 
 there are tracked and untracked files 
+
+for editing recent commit message use git commit --amend
