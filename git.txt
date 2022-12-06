@@ -1,0 +1,19 @@
+git is a code version tracking tool which is an open source and free technology we can integrate with our project no matter 
+if its large or big. it works by tracking changes in current directory and then saving updates as a snapshot so any time we will
+have guarantee that project is in stable state and if anything goes wrong we will always have a backup
+
+commit is a current snapshot of code version that was being created after adding changes
+firstly we should add changes with command git add -A
+secondly we should commit changes with command git commit -m "commit message"
+
+git branches are safe way to create snapshot of multiple changes. for example if we want to add a new feature or fix a bug 
+you create new branch to encapsulate your changes without affecting or adding risk to driver code on main branch 
+
+There is a pointer called HEAD which is basically a variable that Git uses to keep track of the tip of the current
+branch in the repository. When we make new commits, the pointer moves to the last new commit.
+
+downloading repository only gives us source code, files in repository without git in it without commit history branches only 
+pure code nevertheless cloning repository in addition with files we have history of changes and we can manipulate with it in
+in our way
+
+there are tracked and untracked files 
