@@ -17,3 +17,10 @@ pure code nevertheless cloning repository in addition with files we have history
 in our way
 
 there are tracked and untracked files 
+
+git commit --amend -m "add new changes to the old commit and override message with specified onegi"
+
+git log --follow -p <file_name> to show entire history of the file
+gitk <filename> does the same
+
+git log -L :<method_name>:<file_name> to show entire history for method inside a file
