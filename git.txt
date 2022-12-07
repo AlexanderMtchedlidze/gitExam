@@ -24,3 +24,17 @@ git log --follow -p <file_name> to show entire history of the file
 gitk <filename> does the same
 
 git log -L :<method_name>:<file_name> to show entire history for method inside a file
+
+to merge checkout to the branch you want to merge into and then type git merge <branch_name> you want to merge
+
+to undo the merge get commit sha before the merge and use git reset --hard <sha>
+
+to delete commit git reset --hard HEAD~1 to move HEAD to the commit before HEAD.  
+
+to reset with commit sha type git reset --hard <sha> which will remove everything until specified commit 
+
+if code has been pushed before reset git push origin HEAD --force will force update on github
+
+git revert undoes a commit without touching anything it does not rewrite history. git reset alters existing commit history
+so git revert should be used to undo changes on public branch and git reset should be used to undo changes on private branch 
+without breaking others histories
