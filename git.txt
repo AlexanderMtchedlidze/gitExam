@@ -24,3 +24,5 @@ git log --follow -p <file_name> to show entire history of the file
 gitk <filename> does the same
 
 git log -L :<method_name>:<file_name> to show entire history for method inside a file
+
+merge
