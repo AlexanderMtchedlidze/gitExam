@@ -26,3 +26,6 @@ gitk <filename> does the same
 git log -L :<method_name>:<file_name> to show entire history for method inside a file
 
 merge
+
+to merge first checkout to the branch you want to merge into
+then command git merge with branch name merges with the specified
