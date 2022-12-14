@@ -38,3 +38,33 @@ if code has been pushed before reset git push origin HEAD --force will force upd
 git revert undoes a commit without touching anything it does not rewrite history. git reset alters existing commit history
 so git revert should be used to undo changes on public branch and git reset should be used to undo changes on private branch 
 without breaking others histories
+
+
+new text
+
+undo changes -> no add no commit
+git checkout <file_name>
+
+undo changed -> add no commit
+git restore --staged <file_name> to unstage file
+git checkout <file_name> 
+
+to undo commited change
+git reset HEAD~
+git checkout <file_name>
+
+git push -d <branch_name> to delete remote branch
+
+git tag list all tags
+
+git tag <tag_name> create tag at pointer
+
+git tag -a <tag_name> create annotated tag at pointer
+
+git push --tags push all tags
+
+git push <tag_name> push tag_name
+
+git tag <tag_name> <commit_sha> -f update tag
+
+git tag <tag_name> <commit> update previous tag
