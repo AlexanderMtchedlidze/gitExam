@@ -68,3 +68,17 @@ git push <tag_name> push tag_name
 git tag <tag_name> <commit_sha> -f update tag
 
 git tag <tag_name> <commit> update previous tag
+
+git stash to put away unstaged or staged changes without commiting them
+
+git stash pop to restore changes
+
+git index is staging area
+
+git restore <file_name>
+
+git checkout HEAD <file_name>
+
+git checkout -- <ile_name>
+
+git restore --source HEAD~2 <file_name>
